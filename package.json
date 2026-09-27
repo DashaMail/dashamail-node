@@ -1,0 +1,39 @@
+{
+  "name": "@dashamail/node",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for the DashaMail REST API v2",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "dashamail",
+    "email",
+    "sdk",
+    "api",
+    "transactional-email",
+    "email-marketing",
+    "smtp"
+  ],
+  "homepage": "https://dashamail.ru/api/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DashaMail/dashamail-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DashaMail/dashamail-node/issues"
+  },
+  "author": "DashaMail <support@dashamail.ru>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
